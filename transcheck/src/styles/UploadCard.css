@@ -1,0 +1,26 @@
+.upload-card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  padding: 32px;
+  box-shadow: var(--shadow-medium);
+  border: 1px solid var(--border-light);
+  transition: var(--transition);
+}
+
+.upload-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.upload-card-title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.upload-card-icon {
+  font-size: 32px;
+  margin-right: 12px;
+}
